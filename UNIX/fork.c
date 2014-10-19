@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int global = 0;
 int main(int argc, char * argv[])
 {
     int var;
+    int global = 0;
     pid_t pid;
     char buf[] = "write to stdout\n";
     var = 99;
@@ -22,4 +22,5 @@ int main(int argc, char * argv[])
         sleep(2);
     }
     printf("pid:%d var:%d global:%d\n", getpid(), global, var);
+    return -1;
 }

@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFERSIZE	UNIX/UNIX/bufferfile.c	26;"	d	file:
+FILE_MODE	c_cpp_test/file.c	5;"	d	file:
+HelloWorld	UNIX/UNIX/UNIX.cp	/^void UNIX::HelloWorld(const char * s)$/;"	f	class:UNIX
+HelloWorldPriv	UNIX/UNIX/UNIX.cp	/^void UNIXPriv::HelloWorldPriv(const char * s) $/;"	f	class:UNIXPriv
+SIZE	UNIX/UNIX/iotest.c	2;"	d	file:
+UNIX	UNIX/UNIX/UNIX.h	/^class UNIX$/;"	c
+UNIXPriv	UNIX/UNIX/UNIXPriv.h	/^class UNIXPriv$/;"	c
+UNIX_	UNIX/UNIX/UNIX.h	11;"	d
+_XOPEN_SOURCE	UNIX/UNIX/pwd.c	5;"	d	file:
+doit	UNIX/UNIX/rlimit.c	5;"	d	file:
+global	UNIX/fork.c	/^int global = 0;$/;"	v
+main	UNIX/UNIX/atexit.c	/^int main(int argc, char * argv[])$/;"	f
+main	UNIX/UNIX/bufferfile.c	/^int main(int argc, char * argv[])$/;"	f
+main	UNIX/UNIX/duptest.c	/^int main(int argc, const char * argv[])$/;"	f
+main	UNIX/UNIX/environ.c	/^int main(int argc, char * argv[])$/;"	f
+main	UNIX/UNIX/filebasic.c	/^int main(int argc, const char * argv[])$/;"	f
+main	UNIX/UNIX/ioctlfcntl.c	/^int main(int argc, const char * argv[])$/;"	f
+main	UNIX/UNIX/iotest.c	/^int main(int argc, char* argv[])$/;"	f
+main	UNIX/UNIX/pwd.c	/^int main(int argc, char * argv[])$/;"	f
+main	UNIX/UNIX/redirect.c	/^int main(int argc, const char * argv[])$/;"	f
+main	UNIX/UNIX/rlimit.c	/^int main(int argc, char * argv[])$/;"	f
+main	UNIX/UNIX/sys.c	/^int main(int argc, char * argv[])$/;"	f
+main	UNIX/fork.c	/^int main(int argc, char * argv[])$/;"	f
+main	c_cpp_test/file.c	/^int main() {$/;"	f
+main	c_cpp_test/sizeof.c	/^int main() {$/;"	f
+my1	UNIX/UNIX/atexit.c	/^static void my1(void)$/;"	f	file:
+my2	UNIX/UNIX/atexit.c	/^static void my2(void)$/;"	f	file:
+pr_limits	UNIX/UNIX/rlimit.c	/^void pr_limits(char *name, int resource)$/;"	f
+set_fl	UNIX/UNIX/bufferfile.c	/^void set_fl(int fd, int flags)$/;"	f
+set_fl	UNIX/UNIX/ioctlfcntl.c	/^void set_fl(int fd, int flags)$/;"	f
